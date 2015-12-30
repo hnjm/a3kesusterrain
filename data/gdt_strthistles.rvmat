@@ -17,7 +17,7 @@ PixelShaderID = "NormalMapDiffuse";
 VertexShaderID = "NormalMapDiffuseAlpha";
 class Stage1
 {
-	texture = "gdt_strthistles_nopx.paa";
+	texture = "esus\kuwait\data\gdt_strthistles_nopx.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -29,7 +29,7 @@ class Stage1
 };
 class Stage2
 {
-	texture = "gdt_strthistles_co.paa";
+	texture = "esus\kuwait\data\gdt_strthistles_co.paa";
 	uvSource = "tex";
 	class uvTransform
 	{

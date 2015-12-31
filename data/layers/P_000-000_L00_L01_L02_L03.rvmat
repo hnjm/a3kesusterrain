@@ -1,5 +1,5 @@
-ambient[]={0,0,0,0};
-diffuse[]={0,0,0,0};
+ambient[]={1,1,1,1};
+diffuse[]={0.69999999,0.69999999,0.69999999,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,0};
 specular[]={0,0,0,0};
@@ -19,10 +19,10 @@ class TexGen3
 	uvSource="worldPos";
 	class uvTransform
 	{
-		aside[]={0.0001953125,0,0};
-		up[]={0,0,0.0001953125};
-		dir[]={0,-0.0001953125,0};
-		pos[]={0.015625,4.015625,0};
+		aside[]={9.7656251e-005,0,0};
+		up[]={0,0,9.7656251e-005};
+		dir[]={0,-9.7656251e-005,0};
+		pos[]={0.015625,2.015625,0};
 	};
 };
 class TexGen4
@@ -30,10 +30,10 @@ class TexGen4
 	uvSource="worldPos";
 	class uvTransform
 	{
-		aside[]={0.0001953125,0,0};
-		up[]={0,0,0.0001953125};
-		dir[]={0,-0.0001953125,0};
-		pos[]={0.015625,4.015625,0};
+		aside[]={9.7656251e-005,0,0};
+		up[]={0,0,9.7656251e-005};
+		dir[]={0,-9.7656251e-005,0};
+		pos[]={0.015625,2.015625,0};
 	};
 };
 class TexGen0
@@ -52,8 +52,8 @@ class TexGen1
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={0,0,0};
-		up[]={0,0,0};
+		aside[]={5,0,0};
+		up[]={0,5,0};
 		dir[]={0,0,0};
 		pos[]={0,0,0};
 	};
@@ -63,8 +63,8 @@ class TexGen2
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={0,0,0};
-		up[]={0,0,0};
+		aside[]={5,0,0};
+		up[]={0,5,0};
 		dir[]={0,0,0};
 		pos[]={0,0,0};
 	};
@@ -78,12 +78,12 @@ class Stage2
 };
 class Stage3
 {
-	texture="";
+	texture="esus\kuwait\data\gdt_desert_nopx.paa";
 	texGen=1;
 };
 class Stage4
 {
-	texture="";
+	texture="esus\kuwait\data\gdt_desert_co.paa";
 	texGen=2;
 };
 class Stage5
@@ -93,12 +93,12 @@ class Stage5
 };
 class Stage6
 {
-	texture="";
+	texture="esus\kuwait\data\gdt_soil_nopx.paa";
 	texGen=1;
 };
 class Stage7
 {
-	texture="";
+	texture="esus\kuwait\data\gdt_soil_co.paa";
 	texGen=2;
 };
 class Stage8
@@ -108,12 +108,12 @@ class Stage8
 };
 class Stage9
 {
-	texture="gdt_soil_nopx.paa";
+	texture="esus\kuwait\data\gdt_strthistles_nopx.paa";
 	texGen=1;
 };
 class Stage10
 {
-	texture="gdt_soil_co.paa";
+	texture="esus\kuwait\data\gdt_strthistles_co.paa";
 	texGen=2;
 };
 class Stage11
@@ -123,11 +123,11 @@ class Stage11
 };
 class Stage12
 {
-	texture="";
+	texture="esus\kuwait\data\gdt_dry_grass_nopx.paa";
 	texGen=1;
 };
 class Stage13
 {
-	texture="";
+	texture="esus\kuwait\data\gdt_dry_grass_co.paa";
 	texGen=2;
 };
